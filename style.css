@@ -1,0 +1,135 @@
+/* Set a modern, easy-to-read, and inviting font for the whole page */
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', 'Segoe UI', Arial, sans-serif;
+  background-color: #e6f7fa; /* Light teal background for a calm feel */
+  margin: 0;
+  padding: 0;
+}
+
+/* Simple CTA banner styling with blended background */
+.cta-banner {
+  background: #1e88a8 url('img/cta-bg.jpg') center/cover no-repeat;
+  color: #ffffff;
+  padding: 60px 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.cta-banner h1 {
+  color: #fff; /* Make heading text white for readability */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2); /* Add a soft shadow for clarity */
+  font-size: 3.5em;
+  margin-top: 0; /* Remove extra space above the heading */
+  margin-bottom: 32px; /* Increased space below heading */
+  letter-spacing: 1px;
+}
+
+/* Short description styling */
+.cta-banner p {
+  color: #fff; /* Make paragraph text white for readability */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2); /* Add a soft shadow for clarity */
+  font-size: 1.2em;
+  margin-bottom: 36px; /* Increased space below paragraph */
+}
+
+/* Eye-catching CTA button */
+.cta-button {
+  display: inline-block;
+  background-color: #00bfae; /* Bright teal for contrast */
+  color: #ffffff;
+  padding: 16px 36px;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 191, 174, 0.10);
+  transition: background 0.2s;
+  margin-top: 12px; /* Add space above button */
+}
+
+.cta-button:hover {
+  background-color: #009e90; /* Slightly darker on hover */
+}
+
+/* Simple header styling for site name */
+.site-header {
+  background-color: #1e88a8; /* Same blue-teal as banner for consistency */
+  color: #ffffff;
+  padding: 20px 0; /* Space above and below the site name */
+  text-align: center;
+}
+
+.site-header h2 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+/* Info section with two columns (image and text) */
+.info-section {
+  max-width: 700px; /* Limit the width of the section */
+  margin: 50px auto; /* Center the section on the page */
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(30, 136, 168, 0.10); /* Soft shadow */
+  overflow: hidden; /* Contain floated elements */
+  padding: 20px 0;
+}
+
+/* Image column */
+.info-image {
+  float: left;
+  width: 50%; /* Make the image take up half the section */
+  max-width: 300px; /* Allow the image to be larger */
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Text column */
+.info-text {
+  float: left;
+  width: 44%;
+  margin-left: 2%;
+  color: #1e88a8;
+  font-size: 1.1em;
+}
+
+/* Clear floats after the section */
+.info-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Event section styling */
+.event-section {
+  max-width: 600px; /* Keep the section centered and not too wide */
+  margin: 40px auto; /* Space above and below, center on page */
+  background-color: #e6f7fa; /* Light teal background for calmness */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30, 136, 168, 0.08); /* Soft shadow */
+  padding: 24px 16px;
+  text-align: center;
+  border: 2px solid #1e88a8; /* Add a simple border */
+}
+
+/* Change border color when hovering over the event section */
+.event-section:hover {
+  border: 2px solid #00bfae; /* Teal border on hover */
+}
+
+.event-section h3 {
+  color: #1e88a8; /* Blue-teal for heading */
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.event-section p {
+  color: #333; /* Dark gray for readability */
+  margin: 0;
+  font-size: 1.1em;
+}
